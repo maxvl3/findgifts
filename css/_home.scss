@@ -1,0 +1,68 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    padding: 40px 20px 40px 20px;
+
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        img{
+            width: 100px;
+            border-radius: 50%;
+            border: solid 3px $paars;
+        }
+        h1{
+            font-size: 24px;
+
+            span{
+                color: $paars;
+            }
+        }
+        .socials{
+            display: flex;
+            gap: 10px;
+
+            a{
+                font-size: 24px;
+                color: $grijs;
+            }
+        }
+    }
+
+    main{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        max-width: 800px;
+
+        a{
+            display: block;
+            background-color: $wit;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            flex-basis: 280px;
+            flex-grow: 1;
+
+            div{
+                background-color: $paars;
+                padding: 20px;
+                border-radius: 20px 0px 0px 20px;
+            }
+
+            h2{
+                font-size: 16px;
+                padding: 20px;
+            }
+        }
+
+        a:hover{
+            transform: scale(0.9);
+            transition: 300ms;
+        }
+    }
+}

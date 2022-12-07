@@ -1,0 +1,143 @@
+.blogpost{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 700px;
+    padding: 20px 20px 40px 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+    .intro-header{
+        background-color: $paars;
+        height: 150px;
+        position: relative;
+        border-radius: 25px;
+        display: flex;
+        justify-content: center;
+        
+        a{
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            font-size: 24px;
+            color: $wit;
+        }
+
+        a:hover{
+            transform: scale(0.9);
+            transition: 300ms;
+        }
+
+        img{
+            width: 75px;
+        }
+    }
+
+    .intro-text{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .divider{
+        position: relative;
+        margin: 40px 0px;
+        h2{
+            background-color: $donkerpaars;
+            color: $wit;
+            position: absolute;
+            font-size: 20px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+        hr{
+            border: 2px solid $donkerpaars;
+            border-radius: 5px;
+        }
+    }
+
+
+    .gift{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+
+        .gift-image{
+            img{
+                width: 250px;
+                border-radius: 25px;
+            }
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            .price{
+                color: $paars;
+                font-weight: bold;
+            }
+
+            p:nth-of-type(2){
+                font-size: 14px;
+            }
+
+            a{
+                align-self: flex-start;
+                display: block;
+                background-color: $paars;
+                color: $wit;
+                font-weight: bold;
+                font-size: 14px;
+                padding: 15px 20px;
+                border-radius: 1000px;
+                margin-top: 10px;
+            }
+
+            a:hover{
+                transform: scale(0.9);
+                transition: 300ms;
+            }
+        }
+    }
+
+    .meercadeaus{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        margin-top: 20px;
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+
+        a{
+            display: block;
+            align-self: center;
+            background-color: $donkerpaars;
+            color: $wit;
+            font-weight: bold;
+            font-size: 14px;
+            padding: 15px 20px;
+            border-radius: 1000px;
+        }
+
+        a:hover{
+            transform: scale(0.9);
+            transition: 300ms;
+        }
+    }
+}
+
+@media only screen and (max-width: 625px) {
+    .gift {
+      flex-direction: column;
+      
+      img{
+        width: 100% !important;
+      }
+    }
+  }
