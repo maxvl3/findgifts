@@ -16,7 +16,7 @@
             border: solid 3px $paars;
         }
         h1{
-            font-size: 24px;
+            font-size: 28px;
 
             span{
                 color: $paars;
@@ -25,10 +25,20 @@
         .socials{
             display: flex;
             gap: 10px;
+            align-items: center;
 
             a{
-                font-size: 24px;
+                font-size: 28px;
                 color: $grijs;
+            }
+
+            a:nth-of-type(1){
+                font-size: 24px;
+            }
+
+            a:hover{
+                transform: scale(0.9);
+                transition: 300ms;
             }
         }
     }
@@ -63,6 +73,12 @@
         a:hover{
             transform: scale(0.9);
             transition: 300ms;
+        }
+    }
+
+    footer{
+        p{
+            font-size: 12px;
         }
     }
 }

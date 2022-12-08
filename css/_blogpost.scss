@@ -43,7 +43,7 @@
         position: relative;
         margin: 40px 0px;
         h2{
-            background-color: $donkerpaars;
+            background-color: $grijs;
             color: $wit;
             position: absolute;
             font-size: 20px;
@@ -54,7 +54,7 @@
             border-radius: 10px;
         }
         hr{
-            border: 2px solid $donkerpaars;
+            border: 2px solid $grijs;
             border-radius: 5px;
         }
     }
@@ -81,18 +81,14 @@
                 font-weight: bold;
             }
 
-            p:nth-of-type(2){
-                font-size: 14px;
-            }
-
             a{
                 align-self: flex-start;
                 display: block;
                 background-color: $paars;
                 color: $wit;
                 font-weight: bold;
-                font-size: 14px;
-                padding: 15px 20px;
+                font-size: 16px;
+                padding: 12px 18px;
                 border-radius: 1000px;
                 margin-top: 10px;
             }
@@ -110,18 +106,22 @@
         text-align: center;
         gap: 10px;
         margin-top: 20px;
-        max-width: 300px;
+        max-width: 400px;
         margin-left: auto;
         margin-right: auto;
+
+        h3{
+            font-size: 24px;
+        }
 
         a{
             display: block;
             align-self: center;
-            background-color: $donkerpaars;
+            background-color: $grijs;
             color: $wit;
             font-weight: bold;
-            font-size: 14px;
-            padding: 15px 20px;
+            font-size: 16px;
+            padding: 12px 18px;
             border-radius: 1000px;
         }
 

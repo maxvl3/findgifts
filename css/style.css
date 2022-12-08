@@ -35,7 +35,7 @@ body a {
   border: solid 3px #6830D4;
 }
 .home header h1 {
-  font-size: 24px;
+  font-size: 28px;
 }
 .home header h1 span {
   color: #6830D4;
@@ -43,10 +43,18 @@ body a {
 .home header .socials {
   display: flex;
   gap: 10px;
+  align-items: center;
 }
 .home header .socials a {
-  font-size: 24px;
+  font-size: 28px;
   color: #3A3A3A;
+}
+.home header .socials a:nth-of-type(1) {
+  font-size: 24px;
+}
+.home header .socials a:hover {
+  transform: scale(0.9);
+  transition: 300ms;
 }
 .home main {
   display: flex;
@@ -75,6 +83,9 @@ body a {
 .home main a:hover {
   transform: scale(0.9);
   transition: 300ms;
+}
+.home footer p {
+  font-size: 12px;
 }
 
 .blogpost {
@@ -118,7 +129,7 @@ body a {
   margin: 40px 0px;
 }
 .blogpost .divider h2 {
-  background-color: #2A0C60;
+  background-color: #3A3A3A;
   color: #FFFFFF;
   position: absolute;
   font-size: 20px;
@@ -129,7 +140,7 @@ body a {
   border-radius: 10px;
 }
 .blogpost .divider hr {
-  border: 2px solid #2A0C60;
+  border: 2px solid #3A3A3A;
   border-radius: 5px;
 }
 .blogpost .gift {
@@ -150,17 +161,14 @@ body a {
   color: #6830D4;
   font-weight: bold;
 }
-.blogpost .gift div p:nth-of-type(2) {
-  font-size: 14px;
-}
 .blogpost .gift div a {
   align-self: flex-start;
   display: block;
   background-color: #6830D4;
   color: #FFFFFF;
   font-weight: bold;
-  font-size: 14px;
-  padding: 15px 20px;
+  font-size: 16px;
+  padding: 12px 18px;
   border-radius: 1000px;
   margin-top: 10px;
 }
@@ -174,18 +182,21 @@ body a {
   text-align: center;
   gap: 10px;
   margin-top: 20px;
-  max-width: 300px;
+  max-width: 400px;
   margin-left: auto;
   margin-right: auto;
+}
+.blogpost .meercadeaus h3 {
+  font-size: 24px;
 }
 .blogpost .meercadeaus a {
   display: block;
   align-self: center;
-  background-color: #2A0C60;
+  background-color: #3A3A3A;
   color: #FFFFFF;
   font-weight: bold;
-  font-size: 14px;
-  padding: 15px 20px;
+  font-size: 16px;
+  padding: 12px 18px;
   border-radius: 1000px;
 }
 .blogpost .meercadeaus a:hover {
