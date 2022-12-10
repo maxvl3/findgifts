@@ -1,0 +1,38 @@
+.blogoverzicht{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .post-card{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+
+        .imagebox{
+            flex-shrink: 0;
+            background-color: $lichtoranje;
+            width: 75px;
+            height: 75px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+
+            img{
+                width: 40px;
+            }
+        }
+
+        .tekst{
+            h3{
+                font-size: 18px;
+                margin-bottom: 5px;
+            }
+
+            p{
+                font-size: 14px;
+                opacity: 0.5;
+            }
+        }
+    }
+}

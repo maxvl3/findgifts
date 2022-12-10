@@ -1,0 +1,77 @@
+.infoboxes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0px;
+
+    p{
+        flex-grow: 1;
+        flex-basis: 45%;
+        background-color: $lichtoranje;
+        color: $oranje;
+        font-weight: bold;
+        padding: 20px;
+        border-radius: 10px;
+        font-size: 14px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        text-align: start;
+    }
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+
+    label{
+        font-size: 16px;
+        margin-bottom: 10px;
+
+        span{
+            color: $oranje;
+        }
+    }
+
+    input{
+        background-color: rgb(245, 245, 245);
+        border: none;
+        border-radius: 1000px;
+        padding: 10px 20px;
+        color: $zwart;
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+
+    input::placeholder, textarea::placeholder{
+        color: $zwart;
+        opacity: 0.2;
+    }
+
+    textarea{
+        background-color: rgb(245, 245, 245);
+        border: none;
+        border-radius: 10px;
+        padding: 10px 20px;
+        color: $zwart;
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+
+    button{
+        background-color: $oranje;
+        border: none;
+        border-radius: 1000px;
+        color: $wit;
+        font-size: 16px;
+        align-self: flex-start;
+        padding: 10px 15px;
+        font-weight: bold;
+    }
+
+    input:focus, textarea:focus{
+        outline: none;
+    }
+}
