@@ -13,8 +13,9 @@ $zwart : #000000;
 body{
 
     .inhoud{
-        padding: 20px;
+        padding: 20px 20px 110px 20px;
         padding-bottom: 110px;
+        background-color: $wit;
     }
 
     h1,h2,h3,h4,h5,h6,p, a{
@@ -25,6 +26,39 @@ body{
 
     a:focus{
         outline: none;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    body {
+        background-color: $lichtoranje;
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+
+        .telefoon{
+            position: absolute;
+            width: 400px;
+            overflow-y: scroll;
+            height: 90vh;
+            max-height: 750px;
+            border-radius: 20px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+        .telefoon::-webkit-scrollbar {
+            display: none;
+        }
+
+        .inhoud{
+            padding: 20px 20px 20px 20px;
+            min-height: 750px;
+        }
     }
 }
 
