@@ -42,3 +42,17 @@
     margin-bottom: 40px;
     margin-top: 40px;
 }
+
+#populair{
+    margin-bottom: 40px; 
+}
+
+#websize{
+    font-size: 14px;
+    
+    a{
+        display: inline-block;
+        color: $oranje;
+        text-decoration: underline;
+    }
+}

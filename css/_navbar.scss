@@ -1,13 +1,13 @@
 .navbar{
     background-color: $oranje;
     display: flex;
-    justify-content: center;
-    gap: 75px;
+    align-items: center;
+    justify-content: space-around;
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 15px;
+    padding: 10px;
 
     a{
         display: flex;

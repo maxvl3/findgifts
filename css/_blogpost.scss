@@ -97,3 +97,28 @@
         margin-top: 20px;
     }
 }
+
+.meercadeaus{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+
+    h3{
+        font-size: 18px;
+        text-align: center;
+        align-self: center;
+        max-width: 300px;
+    }
+
+    a{
+        align-self: center;
+        background-color: $lichtoranje;
+        border: none;
+        border-radius: 1000px;
+        color: $oranje;
+        font-size: 16px;
+        padding: 10px 15px;
+        font-weight: bold;
+    }
+}

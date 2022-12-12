@@ -13,8 +13,7 @@ $zwart : #000000;
 body{
 
     .inhoud{
-        padding: 20px 20px 110px 20px;
-        padding-bottom: 110px;
+        padding: 20px 20px 100px 20px;
         background-color: $wit;
     }
 
@@ -38,7 +37,7 @@ body{
 
         .telefoon{
             position: absolute;
-            width: 400px;
+            width: 375px;
             overflow-y: scroll;
             height: 90vh;
             max-height: 750px;

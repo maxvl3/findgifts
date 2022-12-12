@@ -6,8 +6,7 @@
 }
 
 body .inhoud {
-  padding: 20px 20px 110px 20px;
-  padding-bottom: 110px;
+  padding: 20px 20px 100px 20px;
   background-color: #FFFFFF;
 }
 body h1, body h2, body h3, body h4, body h5, body h6, body p, body a {
@@ -28,7 +27,7 @@ body a:focus {
   }
   body .telefoon {
     position: absolute;
-    width: 400px;
+    width: 375px;
     overflow-y: scroll;
     height: 90vh;
     max-height: 750px;
@@ -69,13 +68,13 @@ body a:focus {
 .navbar {
   background-color: #FF9D00;
   display: flex;
-  justify-content: center;
-  gap: 75px;
+  align-items: center;
+  justify-content: space-around;
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 15px;
+  padding: 10px;
 }
 .navbar a {
   display: flex;
@@ -137,6 +136,19 @@ body a:focus {
 #nieuw {
   margin-bottom: 40px;
   margin-top: 40px;
+}
+
+#populair {
+  margin-bottom: 40px;
+}
+
+#websize {
+  font-size: 14px;
+}
+#websize a {
+  display: inline-block;
+  color: #FF9D00;
+  text-decoration: underline;
 }
 
 .blogoverzicht {
@@ -334,4 +346,27 @@ form input:focus, form textarea:focus {
   padding: 10px 15px;
   font-weight: bold;
   margin-top: 20px;
+}
+
+.meercadeaus {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 40px;
+}
+.meercadeaus h3 {
+  font-size: 18px;
+  text-align: center;
+  align-self: center;
+  max-width: 300px;
+}
+.meercadeaus a {
+  align-self: center;
+  background-color: #FFEED3;
+  border: none;
+  border-radius: 1000px;
+  color: #FF9D00;
+  font-size: 16px;
+  padding: 10px 15px;
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */
